@@ -15,4 +15,7 @@ print("use step 2\n",arr_1d[0::2]) #  index 0 , 2  , 4  , 6 -> 1,5,9,44
 
 arr_2d = np.array([[1,2,3],[4,5,6],[7,8,9]])
 print("first two items on last two rows\n",arr_2d[-2:,0:2]) # [4,5] , [7,8]
+print("first row\n",arr_2d[0,:]) # [1,2,3]
+print("first column\n",arr_2d[:,0]) # [1,4,7]
+
 
