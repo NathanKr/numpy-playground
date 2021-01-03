@@ -20,6 +20,7 @@ X2 = np.arange(20,m+20,1)
 print("X2 : ",X2)
 
 mat = np.vstack((X0,X1,X2)).T
+print("mat.shape : ",mat.shape)
 
 # both solutions works
 print(np.dot(mat,Teta))
