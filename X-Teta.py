@@ -19,11 +19,11 @@ print("X1 : ",X1)
 X2 = np.arange(20,m+20,1)
 print("X2 : ",X2)
 
-mat = np.vstack((X0,X1,X2)).T
-print("mat.shape : ",mat.shape)
+X = np.vstack((X0,X1,X2)).T
+print("X.shape : ",X.shape)
 
 # both solutions works
-print(np.dot(mat,Teta))
-print(np.matmul(mat,Teta))
+print(np.dot(X,Teta))
+print(np.matmul(X,Teta))
 
 
