@@ -19,5 +19,5 @@ for name in np.nditer(names_2d):
 
 
 print("iterate names_2d names using one for and index")
-for i,name in np.ndenumerate(names_2d):
+for i,name in enumerate(names_2d):
     print (i,name)
