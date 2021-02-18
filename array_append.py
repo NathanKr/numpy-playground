@@ -6,7 +6,7 @@ ar = np.append(ar,1)
 ar = np.append(ar,2) 
 print(ar)
 
-# append 1D list\array to 2D array 
+# append 1D list\array to 2D array  
 ar = np.array([])
 ar = np.append(ar,[1,2,3]) 
 ar = np.append(ar,[4,5,6]) 
