@@ -43,7 +43,7 @@ ar = np.hstack((ar,[4,5,6]))
 print(ar.shape)
 print(ar)
 
-# append 1D array to 2D array , insert
+# append 1D array to 2D array , set
 ar = np.zeros((2,3))
 ar[0,:] = [1,2,3]
 ar[1,:] = [4,5,6]
